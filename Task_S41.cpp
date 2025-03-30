@@ -2,25 +2,25 @@
 using namespace std;
 
 double squared_sum(double a, double b) {
-  double sum = a + b;
-  return sum * sum;
+    double sum = a + b;
+    return sum * sum;
 }
 
 int main() {
     setlocale(LC_ALL,"russian");
     double num1, num2;
-    cout << "Ââåäèòå ïåğâîå äğîáíîå ÷èñëî: ";
+    cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¯Ã¥Ã°Ã¢Ã®Ã¥ Ã¤Ã°Ã®Ã¡Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®: ";
     cin >> num1;
 
-    cout << "Ââåäèòå âòîğîå äğîáíîå ÷èñëî: ";
+    cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¢Ã²Ã®Ã°Ã®Ã¥ Ã¤Ã°Ã®Ã¡Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®: ";
     cin >> num2;
 
     double result = squared_sum(num1, num2);
 
-    cout << "Êâàäğàò ñóììû ÷èñåë " << num1 << " è " << num2 << " ğàâåí: " << result <<
+    cout << "ÃŠÃ¢Ã Ã¤Ã°Ã Ã² Ã±Ã³Ã¬Ã¬Ã» Ã·Ã¨Ã±Ã¥Ã« " << num1 << " Ã¨ " << num2 << " Ã°Ã Ã¢Ã¥Ã­: " << result <<
     endl;
 
   return 0;
 }
 
-//ğåøèë
+//Ã°Ã¥Ã¸Ã¨Ã«
