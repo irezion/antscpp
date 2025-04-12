@@ -9,16 +9,16 @@ int main() {
     ifstream inFile("output.txt");
 
     int number;
-    int counter = 1; // Ñ÷¸ò÷èê ñòğîê
+    int counter = 1; // Ğ¡Ñ‡Ñ‘Ñ‚Ñ‡Ğ¸Ğº ÑÑ‚Ñ€Ğ¾Ğº
 
     while (inFile >> number) {
         cout << counter << ". " << number << endl;
         counter++;
     }
 
-    inFile.close(); // Çàêğûâàåì ôàéë
+    inFile.close(); // Ğ—Ğ°ĞºÑ€Ñ‹Ğ²Ğ°ĞµĞ¼ Ñ„Ğ°Ğ¹Ğ»
     return 0;
 }
 
 
-//ğåøèë
+//Ñ€ĞµÑˆĞ¸Ğ»
